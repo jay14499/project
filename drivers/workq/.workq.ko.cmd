@@ -1,0 +1,1 @@
+cmd_/home/engineer/jay/drivers/workq/workq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/engineer/jay/drivers/workq/workq.ko /home/engineer/jay/drivers/workq/workq.o /home/engineer/jay/drivers/workq/workq.mod.o;  true

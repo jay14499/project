@@ -1,0 +1,1 @@
+cmd_/home/engineer/jay/drivers/driver2/dep.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /home/engineer/jay/drivers/driver2/dep.o /home/engineer/jay/drivers/driver2/1.o /home/engineer/jay/drivers/driver2/2.o
