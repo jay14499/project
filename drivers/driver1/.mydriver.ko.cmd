@@ -1,0 +1,1 @@
+cmd_/home/engineer/jay/drivers/mydriver.ko := /home/engineer/kernel/raspberrypi/buildroot-2021.02.6/output/host/bin/arm-linux-ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/engineer/jay/drivers/mydriver.ko /home/engineer/jay/drivers/mydriver.o /home/engineer/jay/drivers/mydriver.mod.o;  true

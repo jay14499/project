@@ -1,0 +1,1 @@
+cmd_/home/engineer/jay/drivers/driver2/jay.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/engineer/jay/drivers/driver2/jay.ko /home/engineer/jay/drivers/driver2/jay.o /home/engineer/jay/drivers/driver2/jay.mod.o;  true
